@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-model href="student.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="Student.xsl" type="text/xsl"?>
+<computerscience>
+  <student>
+  <Stud-id>1</Stud-id>
+  <Stud-name>Yash</Stud-name>
+  <Stud-university>Christ</Stud-university>
+  <Stud-email-id>2000pathakyash@gmail.com</Stud-email-id>
+  <Stud-phone-no>9004261825</Stud-phone-no>
+  </student>
+
+  <student>
+  <Stud-id>2</Stud-id>
+  <Stud-name>Bernard</Stud-name>
+  <Stud-university>Manipal</Stud-university>
+  <Stud-email-id>bernarddas@gmail.com</Stud-email-id>
+  <Stud-phone-no>8765774892</Stud-phone-no>
+  </student>
+
+  <student>
+  <Stud-id>3</Stud-id>
+  <Stud-name>Adhokshaj</Stud-name>
+  <Stud-university>LPU</Stud-university>
+  <Stud-email-id>adhokshaj2000@gmail.com</Stud-email-id>
+  <Stud-phone-no>2984669237</Stud-phone-no>
+  </student>
+
+  <student>
+  <Stud-id>4</Stud-id>
+  <Stud-name>Aditya</Stud-name>
+  <Stud-university>Amity</Stud-university>
+  <Emp-email-id>aditya34@gmail.com</Emp-email-id>
+  <Emp-phone-no>6646229745</Emp-phone-no>
+  <Emp-designation>Tester</Emp-designation>
+  </student>
+
+  <student>
+  <Stud-id>5</Stud-id>
+  <Stud-name>Abhay</Stud-name>
+  <Stud-university>Jhunjhanwala</Stud-university>
+  <Stud-email-id>abhay19@gmail.com</Emp-email-id>
+  <Stud-phone-no>9987364452</Stud-phone-no>
+  </student>
+</computerscience>

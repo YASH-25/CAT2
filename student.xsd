@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="computerscience">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Stud-id"></xs:element>
+                            <xs:element name="Stud-name" type="xs:string" />
+                            <xs:element name="Stud-university" type="university" />
+                            <xs:element name="Stud-email-id" type="xs:string" />
+                            <xs:element name="Stud-phone-no" type="phone" />
+                        </xs:sequence>
+                    </xs:complexType>
+                    <xs:unique name="unique">
+                        <xs:selector xpath="StudentS" />
+                        <xs:field xpath="Stud-id" />
+                    </xs:unique>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
